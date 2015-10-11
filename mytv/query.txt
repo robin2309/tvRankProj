@@ -1,0 +1,2 @@
+db.programs.find({channel: "TF1", startDate: {$lt: new Date()}}).sort({startDate : 1})
+
