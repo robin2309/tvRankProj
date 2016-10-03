@@ -10,6 +10,7 @@ var mongoClient = require('mongodb').MongoClient;
 
 var filePath = path.join(__dirname, 'programs.xml');
 
+
 var Channel = function(id, name){
     this.id = id;
     this.name = name;
